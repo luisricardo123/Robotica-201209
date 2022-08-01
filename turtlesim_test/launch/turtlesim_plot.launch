@@ -1,0 +1,6 @@
+<launch>
+  <node name="pos_plot"
+        pkg="rqt_plot"
+        type="rqt_plot"
+        args="/turtle1/pose/x /turtle1/pose/y /turtle1/pose/theta" />
+</launch>
