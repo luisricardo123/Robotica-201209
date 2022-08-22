@@ -1,0 +1,16 @@
+<launch>
+    <node 
+        pkg="turtle_control"
+        type="node_turtlebot3_test.py" 
+        name="node_turtlebot3_test"
+        output="screen"
+        >
+    </node>
+    <node 
+        pkg="turtlesim" 
+        name="turtlesim_node" 
+        type="turtlesim_node"
+        required="true"
+        > 
+    </node>
+</launch>
